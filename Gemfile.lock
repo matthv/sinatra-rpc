@@ -1,0 +1,58 @@
+PATH
+  remote: /Users/matthieuvideaud/Sites/agents/in-app/agent-ruby/packages/forest_admin_rpc_agent
+  specs:
+    forest_admin_rpc_agent (1.0.0.pre.beta.89)
+      zeitwerk (~> 2.3)
+
+GEM
+  specs:
+    base64 (0.2.0)
+    bigdecimal (3.1.9)
+    google-protobuf (4.30.0-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    googleapis-common-protos-types (1.18.0)
+      google-protobuf (>= 3.18, < 5.a)
+    grpc (1.71.0-arm64-darwin)
+      google-protobuf (>= 3.25, < 5.0)
+      googleapis-common-protos-types (~> 1.0)
+    logger (1.6.6)
+    mustermann (3.0.3)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.7.4)
+    puma (6.6.0)
+      nio4r (~> 2.0)
+    rack (3.1.12)
+    rack-protection (4.1.1)
+      base64 (>= 0.1.0)
+      logger (>= 1.6.0)
+      rack (>= 3.0.0, < 4)
+    rack-session (2.1.0)
+      base64 (>= 0.1.0)
+      rack (>= 3.0.0)
+    rackup (2.2.1)
+      rack (>= 3)
+    rake (13.2.1)
+    ruby2_keywords (0.0.5)
+    sinatra (4.1.1)
+      logger (>= 1.6.0)
+      mustermann (~> 3.0)
+      rack (>= 3.0.0, < 4)
+      rack-protection (= 4.1.1)
+      rack-session (>= 2.0.0, < 3)
+      tilt (~> 2.0)
+    tilt (2.6.0)
+    zeitwerk (2.7.2)
+
+PLATFORMS
+  arm64-darwin-23
+
+DEPENDENCIES
+  forest_admin_rpc_agent!
+  grpc (~> 1.71)
+  puma (~> 6.6)
+  rackup (~> 2.2)
+  sinatra
+
+BUNDLED WITH
+   2.6.5
