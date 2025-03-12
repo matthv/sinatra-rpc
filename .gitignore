@@ -1,0 +1,30 @@
+# Ignore bundler's dependencies
+/vendor/bundle
+
+# Ignore SQLite database files
+/db/*.sqlite3
+
+# Ignore temporary files
+/tmp
+/log/*.log
+/log/*.pid
+/log/*.swp
+
+# Ignore schema cache
+/db/schema.rb
+
+# Ignore compiled files
+*.rbc
+*.o
+*.out
+
+# Ignore Editor/OS-specific files
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Ignore dotenv environment files
+.env
