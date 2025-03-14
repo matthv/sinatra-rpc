@@ -6,6 +6,7 @@ require 'sinatra/activerecord'
 require 'json'
 require 'httparty'
 require 'forest_admin_rpc_agent'
+require 'debug'
 
 require './models/product'
 require './models/order'

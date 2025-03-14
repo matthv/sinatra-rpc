@@ -73,6 +73,9 @@ GEM
     connection_pool (2.5.0)
     csv (3.3.2)
     date (3.4.1)
+    debug (1.10.0)
+      irb (~> 1.10)
+      reline (>= 0.3.8)
     deepsort (0.4.5)
     domain_name (0.6.20240107)
     drb (2.2.1)
@@ -115,7 +118,12 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
+    io-console (0.8.0)
     ipaddress (0.8.3)
+    irb (1.15.1)
+      pp (>= 0.6.0)
+      rdoc (>= 4.0.0)
+      reline (>= 0.4.2)
     json (2.10.2)
     json-jwt (1.16.7)
       activesupport (>= 4.2)
@@ -173,6 +181,12 @@ GEM
       tzinfo
       validate_url
       webfinger (~> 2.0)
+    pp (0.6.2)
+      prettyprint
+    prettyprint (0.2.0)
+    psych (5.2.3)
+      date
+      stringio
     public_suffix (6.0.1)
     puma (6.6.0)
       nio4r (~> 2.0)
@@ -196,6 +210,10 @@ GEM
     rackup (2.2.1)
       rack (>= 3)
     rake (13.2.1)
+    rdoc (6.12.0)
+      psych (>= 4.0.0)
+    reline (0.6.0)
+      io-console (~> 0.5)
     ruby2_keywords (0.0.5)
     securerandom (0.4.1)
     sinatra (4.1.1)
@@ -209,6 +227,7 @@ GEM
       activerecord (>= 4.1)
       sinatra (>= 1.0)
     sqlite3 (2.5.0-arm64-darwin)
+    stringio (3.1.5)
     swd (2.0.3)
       activesupport (>= 3)
       attr_required (>= 0.0.5)
@@ -233,6 +252,7 @@ PLATFORMS
   arm64-darwin-23
 
 DEPENDENCIES
+  debug
   forest_admin_agent!
   forest_admin_datasource_customizer!
   forest_admin_datasource_toolkit!
