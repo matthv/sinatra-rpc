@@ -8,7 +8,7 @@ gem 'rake'
 
 gem 'debug', platforms: %i[ mri mingw x64_mingw ]
 
-gem 'forest_admin_rpc_agent', path: '/Users/matthieuvideaud/Sites/agents/in-app/agent-ruby/packages/forest_admin_rpc_agent'
 gem 'forest_admin_agent', path: '/Users/matthieuvideaud/Sites/agents/in-app/agent-ruby/packages/forest_admin_agent'
-gem 'forest_admin_datasource_customizer', path: '/Users/matthieuvideaud/Sites/agents/in-app/agent-ruby/packages/forest_admin_datasource_customizer'
 gem 'forest_admin_datasource_toolkit', path: '/Users/matthieuvideaud/Sites/agents/in-app/agent-ruby/packages/forest_admin_datasource_toolkit'
+gem 'forest_admin_datasource_active_record', path: '/Users/matthieuvideaud/Sites/agents/in-app/agent-ruby/packages/forest_admin_datasource_active_record'
+gem 'forest_admin_datasource_customizer', path: '/Users/matthieuvideaud/Sites/agents/in-app/agent-ruby/packages/forest_admin_datasource_customizer'
